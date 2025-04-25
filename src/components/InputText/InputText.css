@@ -1,0 +1,16 @@
+.inputText{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.inputText input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px 30px;
+    background-color: #151419;
+    border: 2px solid;
+    border-color: #6C757D;
+    border-radius: 2px;
+    font-size: 15px;
+    color: white;
+}

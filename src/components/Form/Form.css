@@ -1,0 +1,19 @@
+.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    max-width: 100%;
+}
+
+.form form{
+    padding: 180px 50px;
+    max-width: 500px;
+    width: 100%;
+}
+
+p{
+    font-style: normal;
+    margin-bottom: 40px;
+}
