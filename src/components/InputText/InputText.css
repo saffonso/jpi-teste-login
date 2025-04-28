@@ -7,10 +7,26 @@
     box-sizing: border-box;
     width: 100%;
     padding: 17px 30px;
-    background-color: #151419;
-    border: 2px solid;
+    background-color: transparent;    border: 2px solid;
     border-color: #6C757D;
     border-radius: 2px;
     font-size: 15px;
     color: white;
 }
+.inputText input:autofill {
+    background-color: transparent;
+}
+
+.inputText input:enabled, .inputText input:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+.inputText input:focus, .inputText input:hover {
+    outline: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #0f2030, #2b70b1) 1;
+    box-shadow: 0 0 0 0.05rem rgba(28, 72, 113, 1);
+  }

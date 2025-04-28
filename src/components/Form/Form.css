@@ -5,6 +5,7 @@
     align-items: center;
     margin: 100px 0;
     max-width: 100%;
+
 }
 
 .form form{
@@ -16,4 +17,38 @@
 p{
     font-style: normal;
     margin-bottom: 40px;
+}
+
+body{
+    background-color: #151419 ;
+}
+
+h2{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.complementos{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.complementos input[type="checkbox"] {
+    accent-color: #13283c;
+    cursor: pointer;
+  }
+
+.complementos .link{
+    color: white;
+    text-decoration: none;
+}
+
+.complementos .link:hover{
+    color: white;
+    text-decoration: underline;
 }

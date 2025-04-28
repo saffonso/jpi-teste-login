@@ -3,7 +3,8 @@ import Button from '../button';
 import InputText from '../InputText';
 import Logo from '../logo';
 import './Form.css'
-import { Navigate, Route } from 'react-router';
+import { Link, Navigate, Route } from 'react-router';
+
 
 const FormLogin = () => {
 
@@ -30,6 +31,11 @@ const FormLogin = () => {
                 <InputText valor={user} aoAlterar={user => setUser(user)} nome="Usuário"/>
                 <InputText valor={password} aoAlterar={password => setPassword(password)} nome="Senha" tipo="password" />
                 <Button>Entrar</Button>
+                <div className='complementos'>
+                    <Link to='/esqueceusenha' className='link'>Esqueceu senha</Link>
+                    <label><input type='checkbox'/>Mantenha-me conectado</label>
+                </div>
+                
             </form>
         </section>        
     )

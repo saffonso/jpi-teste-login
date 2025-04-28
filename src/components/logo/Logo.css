@@ -1,3 +1,7 @@
-.img{
-    size: 10px;
+img{
+    width: 150px;
+
 }
+body {
+    overflow: hidden;
+  }

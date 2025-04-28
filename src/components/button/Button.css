@@ -4,15 +4,20 @@
 
 .botao button{
     width: 100%;
-    background-color: #13283C;
-    border-radius: 2px;
-    font-size: 15px;
-    border: none;
-    color: white;
+    color: #ffff;
+    background-color: #13283c;
+    border-color: #13283c;
+    background-image: linear-gradient(to right, #13283C, #143452);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s cubic-bezier(0.25,0.8,0.25,1), color 0.3s ease-in-out;
     padding: 17px 30px;
+    border: none;
+    border-radius: 2px;
 
 }
 
 .botao button:hover{
-    border: 2px solid #f7f7f7;
+    background-size: 100% 100%;
+    color: #d6c8c8;
 }

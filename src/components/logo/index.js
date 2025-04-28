@@ -2,7 +2,7 @@ import './Logo.css'
 
 const Logo = () => {
     return(
-        <img src="/images/logoJPI.png" alt="logo da empresa"/>
+        <img src="/images/IconeJPI.svg" alt="logo da empresa"/>
     )
 }
 
