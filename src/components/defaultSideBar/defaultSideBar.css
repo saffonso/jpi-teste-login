@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0.5rem 0;
+}
