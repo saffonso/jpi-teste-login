@@ -14,8 +14,6 @@ import {
   Search
 } from "lucide-react";
 import './defaultSideBar.css';
-import { Form } from 'react-router';
-import Login from '../../pages/login';
 const DefaultSideBar = () => {
   return (
     <div className='container'>
